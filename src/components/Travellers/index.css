@@ -1,0 +1,52 @@
+.traveller {
+    margin: 2rem auto; /* Add some margin for better spacing */
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 600px; /* Set a fixed width or use max-width */
+    text-align: center; /* Center the content within the component */
+  }
+  
+  .traveller h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .hot-weather,
+  .rainy-weather,
+  .pleasant-weather {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 3px;
+  }
+  
+  .hot-weather {
+    background-color: #f39c12; /* Light orange for hot weather */
+    color: #000;
+  }
+  
+  .rainy-weather {
+    background-color: rgba(red, green, blue, alpha); /* Light blue for rain */
+    color: #fff;
+  }
+  
+  .pleasant-weather {
+    background-color: #2ecc71; /* Light green for pleasant weather */
+    color: #fff;
+  }
+  
+  .hot-weather ul,
+  .rainy-weather ul,
+  .pleasant-weather ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hot-weather li,
+  .rainy-weather li,
+  .pleasant-weather li {
+    margin-bottom: 0.5rem;
+  }
+  

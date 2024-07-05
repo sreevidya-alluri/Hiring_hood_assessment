@@ -1,0 +1,68 @@
+.farmers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.alert {
+    font-weight: bold;
+    color: #e3342b; /* Reddish alert color */
+    margin-bottom: 1rem;
+}
+
+.heavy-rain,
+.high-temp,
+.high-humidity {
+    padding: 1rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.heavy-rain {
+    background-color: #3498db; /* Light blue for rain */
+    color: #fff;
+}
+
+.high-temp {
+    background-color: #f39c12; /* Light orange for heat */
+    color: #000;
+}
+
+.high-humidity {
+    background-color: #9b59b6; /* Light purple for humidity */
+    color: #fff;
+}
+
+.crops-suggestion {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.crops-suggestion h3 {
+    margin-bottom: 0.5rem;
+}
+
+.crops-suggestion ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.crops-suggestion li {
+    margin-bottom: 0.5rem;
+}
+
+.farmers-img {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    margin-top: 1rem;
+}
